@@ -26,7 +26,7 @@ class MenuItems extends React.Component {
     console.log(target)
 
     this.props.changeSize(target.value)
-   // this.props.changeTotalPrice(target.dataset.price)
+    this.props.changeTotalPrice(target.dataset.price)
     // this.props.changePriceSize(target.dataset.price)
   
       

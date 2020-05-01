@@ -78,13 +78,7 @@ const SizeComponent = (props) => {
         </div>
         <div className="Options">
             <div className="name">Размер: &nbsp; </div>
-
-            <select onChange={props.changeSizeHandler} name="" id="">
-              <option data-price="30"  value="20см">20см</option>
-              <option data-price="40" value="30см">30см</option>
-              <option data-price="50" value="40см">40см</option>
-            </select>
-        {/* <fieldset >
+        <fieldset >
             <input     
             data-price="40"
             value="20см"
@@ -106,7 +100,7 @@ const SizeComponent = (props) => {
             onClick={props.changeSizeHandler}
             type="checkbox"
             />  40см
-        </fieldset> */}
+        </fieldset>
         </div>
     </Sizestyle>
     )
